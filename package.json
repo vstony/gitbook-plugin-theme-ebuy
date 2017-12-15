@@ -1,0 +1,24 @@
+{
+    "name": "gitbook-plugin-theme-ebuy",
+    "description": "gitbook plugin theme ebuy",
+    "version": "1.0.0",
+    "engines": {
+        "gitbook": ">=3.2.3"
+    },
+    "devDependencies": {
+        "less": "2.7.2",
+        "less-plugin-clean-css": "1.5.1",
+        "gitbook-styleguide": "7.9.3"
+    },
+    "scripts": {
+        "prepublish": "./src/build.sh"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vstony/gitbook-plugin-theme-ebuy.git"
+    },
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/vstony/gitbook-plugin-theme-ebuy/issues"
+    }
+}
